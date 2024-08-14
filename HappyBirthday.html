@@ -108,6 +108,12 @@ canvas{
   letter-spacing: 2px;
   color: #00AEE1;
 }
+.envelope .back .letter p span{
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  color: #00AEE1;
+}
 
 .envelope .front .mail p:first-child {
   font-size: 50px;
@@ -216,7 +222,7 @@ canvas{
   top: 5px;
   left: 10px;
   width: 530px;
-  height: 346.66667px;
+  height: 370px;
   background-color: #FFF;
   border-radius: 5px;
   padding: 0 30px;
@@ -492,6 +498,13 @@ canvas{
   animation: fire 2s infinite;
 }
 
+.cat {
+    background-image:url('image/cat.png');             /* 画像のURLを指定       */
+    background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */
+    width:auto;                                   /* 横幅のサイズを指定    */
+    height:200px;
+}
+
 @keyframes fire {
   0% {
     background: #fbf33f;
@@ -526,14 +539,18 @@ canvas{
   </div>
   <div class="back">
     <div class="letter">
-			<p>Happy Birthday❗️❗️(｡･ω･｡)<br><br>これからも元気でいてね！！</p><p>To Mom</p>
+      <p>To Mom</p>
+			<p>Happy Birthday❗️❗️(｡･ω･｡)<br><br>これからも元気でいてね🥳🎉</p><p><span>息子たちより</span></p>
 
 	<div class="box">
+    <div class="cat">
+      <br><br>
 		<div class="cake">
 			<div class="candle">
 				<div class="fire"></div>
 			</div>
 		</div>
+    </div>
 	</div>
     </div>
     <div class="flip left-flip"></div>
